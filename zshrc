@@ -18,7 +18,7 @@ brew
 EOBUNDLES
 
 # theme
-antigen theme pure
+antigen theme gallois
 
 # apply
 antigen apply
