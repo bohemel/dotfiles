@@ -26,10 +26,12 @@ antigen apply
 # autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
-export PATH="/Users/joel/.composer/vendor/bin:/Users/joel/Library/Android/sdk/tools:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/Users/joel/.composer/vendor/bin:/Users/joel/Library/Android/sdk/tools:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 alias o="open"
 alias oo="open ."
 alias ls="ls --color=auto"
-alias ss="subl ."
 alias s="subl"
+alias ss="subl ."
+alias a="atom"
+alias aa="atom ."
