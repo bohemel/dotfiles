@@ -1,6 +1,8 @@
 #!/bin/bash
 
+pwd=$(pwd)
+
 for file in vimrc zshrc; do
-  echo "cp $file ~/.$file"
+  ln -sf $pwd/$file ~/.$file
 done
 
