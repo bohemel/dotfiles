@@ -13,12 +13,10 @@ composer
 command-not-found
 zsh-users/zsh-syntax-highlighting
 brew
-
+mafredri/zsh-async
+sindresorhus/pure
 
 EOBUNDLES
-
-# theme
-antigen theme gallois
 
 # apply
 antigen apply
@@ -35,3 +33,4 @@ alias s="subl"
 alias ss="subl ."
 alias a="atom"
 alias aa="atom ."
+alias e="subl -n"
