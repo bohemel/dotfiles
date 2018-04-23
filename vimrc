@@ -1,29 +1,9 @@
 set nocompatible
 filetype off
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
-
-Plugin 'https://github.com/Valloric/YouCompleteMe.git'
-Plugin 'scrooloose/nerdtree'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'bling/vim-airline'
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-
 syntax enable
 
-set background=dark
-let g:solarized_termcolors=256
-colorscheme solarized
+set background=light
 
 set backup
 set backupdir=/tmp
@@ -42,11 +22,6 @@ set copyindent
 set ignorecase
 
 set laststatus=2
-
-let g:airline_left_sep = ''
-let g:airline_right_sep = ''
-
-map <silent> <C-n> :NERDTreeFocus<CR>
 
 if has("gui_running")
   set guifont=Source\ Code\ Pro:h13

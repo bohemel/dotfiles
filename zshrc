@@ -1,4 +1,5 @@
-source ~/.dotfiles/antigen/antigen.zsh
+# antigen installed via homebrew
+source /usr/local/share/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
