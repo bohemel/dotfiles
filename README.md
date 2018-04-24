@@ -1,6 +1,6 @@
 # Joels .dotfiles
 
-Very simple zsh/antigen setup. uses [vundle](http://vundle) for vim plugins. 
+It's what it is.
 
 ## Homebrew packages
 
@@ -8,4 +8,5 @@ Very simple zsh/antigen setup. uses [vundle](http://vundle) for vim plugins.
 brew install zsh
 brew install autojump
 brew install macvim
+brew install antigen
 ```
