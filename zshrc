@@ -23,7 +23,6 @@ antigen apply
 # autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
-
 export PATH="$HOME/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
@@ -32,4 +31,4 @@ alias o="open"
 alias oo="open ."
 alias ls="ls --color=auto"
 
-antigen theme /Users/joel/.dotfiles/themes/joel --no-local-clone
+PROMPT="💾  > "
