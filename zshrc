@@ -1,5 +1,5 @@
-# antigen installed via homebrew
-source /usr/local/share/antigen/antigen.zsh
+ANTIGEN_PATH=~/.dotfiles
+source $ANTIGEN_PATH/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -11,25 +11,26 @@ git
 osx
 vagrant
 composer
-command-not-found
-zsh-users/zsh-syntax-highlighting
-brew
 docker
 docker-compose
+zsh-users/zsh-syntax-highlighting
+command-not-found
 
 EOBUNDLES
-
-# theme
-antigen theme imajes
 
 # apply
 antigen apply
 
 # autojump
-[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
 
 export PATH="$HOME/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 alias o="open"
 alias oo="open ."
 alias ls="ls --color=auto"
+
+antigen theme /Users/joel/.dotfiles/themes/joel --no-local-clone

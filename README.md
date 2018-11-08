@@ -8,5 +8,4 @@ It's what it is.
 brew install zsh
 brew install autojump
 brew install macvim
-brew install antigen
 ```
