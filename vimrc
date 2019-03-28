@@ -3,7 +3,7 @@ filetype off
 
 syntax enable
 
-set background=light
+set background=dark
 
 set backup
 set backupdir=/tmp

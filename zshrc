@@ -17,6 +17,8 @@ command-not-found
 
 EOBUNDLES
 
+antigen theme refined
+
 # apply
 antigen apply
 
@@ -30,5 +32,5 @@ export LANG=en_US.UTF-8
 alias o="open"
 alias oo="open ."
 alias ls="ls --color=auto"
-
-PROMPT="💾  > "
+alias dr="docker-compose exec drupal8 drush"
+alias ce="docker-compose exec drupal8"
