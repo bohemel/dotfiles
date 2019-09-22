@@ -25,7 +25,9 @@ antigen apply
 # autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
+# Add ~/bin and homebrew gnutools dir to path
 export PATH="$HOME/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
@@ -34,3 +36,5 @@ alias oo="open ."
 alias ls="ls --color=auto"
 alias dr="docker-compose exec drupal8 drush"
 alias ce="docker-compose exec drupal8"
+alias dc="docker-compose"
+
