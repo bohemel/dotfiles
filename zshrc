@@ -39,6 +39,7 @@ alias ce="docker-compose exec drupal8"
 alias dc="docker-compose"
 alias cc="code ."
 alias c="code"
+alias dev="./dev.sh"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/joelsoderberg/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/joelsoderberg/google-cloud-sdk/path.zsh.inc'; fi
