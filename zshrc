@@ -9,7 +9,6 @@ antigen bundles <<EOBUNDLES
 git
 osx
 vagrant
-composer
 docker
 docker-compose
 zsh-users/zsh-syntax-highlighting
@@ -41,8 +40,3 @@ alias cc="code ."
 alias c="code"
 alias dev="./dev.sh"
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/joelsoderberg/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/joelsoderberg/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/joelsoderberg/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/joelsoderberg/google-cloud-sdk/completion.zsh.inc'; fi
